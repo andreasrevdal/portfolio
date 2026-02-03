@@ -1,32 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andreas Revdal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-</head>
-<body>
-    <div class="container">
-        <div class="intro">
-            <p>Hello, I'm Andreas</p>
-            <h1>A passionate IT Consultant</h1>
-            <div class="social-icons">
-                <a href="https://twitter.com/andreasrevdal"><img src="images/twitter.png" alt="Twitter"></a>
-                <a href="https://github.com/andreasrevdal"><img src="images/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/andreasrevdal/"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                <a href="discord.html"><img src="images/discord.png" alt="Discord"></a>
-            </div>
-        </div>
-        <div class="buttons">
-            <a href="https://github.com/andreasrevdal?tab=repositories" class="btn" target="_blank">My Projects</a>
-            <a href="about.html" class="btn">About Me</a>
-        </div>
-    </div>
-    <div class="buymeacoffee-container">
-        <a href="https://buymeacoffee.com/revdal" class="buymeacoffee-btn" target="_blank">Buy Me a Coffee</a>
-    </div>
-    <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Andreas L. Revdal</title>
+
+    <!-- Favicon is created dynamically in TS (canvas -> data URL) -->
+    <link id="dynamic-favicon" rel="icon" href="" />
+
+    <meta name="description" content="Andreas L. Revdal – Datacenter IT Consultant. Kubernetes, Docker, Proxmox, Unraid, TrueNAS, networking and automation." />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

@@ -1,19 +1,20 @@
-# My Simple Portfolio Website
+# Portfolio — revdal.no
 
-Welcome to my simple portfolio website!
+Personal portfolio site for https://revdal.no
 
-## Website
+Run (local):
 
-[https://revdal.no/](https://revdal.no/)
+```bash
+npm install
+npm run dev
+```
 
-## Features
+Build:
 
-- **Home Page**: Main page to other pages and links.
-- **About Page**: Detailed information about my background, education, and skills.
-- **Projects Page**: Links to my github page.
+```bash
+npm run build
+```
 
-## Technologies
+Deploy: publish the `dist/` folder to any static host (Vercel, Netlify, GitHub Pages).
 
-- **HTML**
-- **CSS**
-- **JavaScript**
+Structure: `index.html`, `src/`, `public/`
